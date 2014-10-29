@@ -1,0 +1,83 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #0d63a3;
+	height: 100%;
+	width: 100%;
+	font: 16px;
+ 	line-height: 1.5;
+ 	font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+ 	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
+               0 0 5px rgba(181, 232, 83, 0.1),
+               0 0 10px rgba(181, 232, 83, 0.1);
+}
+
+div {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.main-container {
+	margin: 0px auto;
+	padding-top: 180px;
+}
+
+.white-block {
+	height: 512px;
+	width: 942px;
+	border-radius: 20px;
+	background-color: #dddddd;
+	box-shadow:0 0 235px rgba(255,255,255,.5);
+}
+
+.author-info {
+	float: bottom;
+	margin-bottom: 5%;
+}
+
+.empty-block-div {
+	min-height: 60px;
+	max-height: 140px;
+}
+
+.pic-box {
+	float: left;
+	margin-left: 35px;
+	margin-top: 40px;
+	width: 70%;
+}
+
+.photos-1 {
+	position: absolute;
+	z-index: 1;
+}
+
+.photos-2 {
+	position: absolute;
+	z-index: 2;
+}
+
+.login-box {
+	float: right;
+	margin-top: 20px;
+	margin-right: 120px;
+	min-height: 176px;
+	min-width: 166px;
+}
+
+table {
+	padding: 18px;
+	background-color: rgba(100, 205, 205, 0.8);
+	border-radius: 20px;
+}
+
+.blank-div {
+	min-height: 300px;
+}
